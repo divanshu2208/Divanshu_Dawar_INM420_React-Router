@@ -1,0 +1,63 @@
+/*mobile first*/
+
+body {
+    font-family: sans-serif;
+}
+a {
+    color: #008000;
+}
+
+/* header, main nav */
+header a {
+    text-decoration: none;
+    color: rgb(56, 0, 196);
+}
+
+header nav {
+    background:rgb(56, 0, 196);
+    margin: 0 auto;
+}
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+header nav a {
+    font-size: 14px;
+    display: block;
+    padding: 20px;
+    color: #fff;
+}
+header nav a:hover {
+    color: #ccc;
+}
+
+/* content */
+main h2 {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90%;
+    border: 1px solid rgb(56, 0, 196);
+    border-radius: 5px;
+    padding: 4px;
+}
+main .content {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 90%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+/*desktop styling*/
+@media (min-width : 768px) {
+
+    main .content {
+        font-size: 14px;
+
+    }
+
+    main h2 {
+        padding: 5px;
+    }
+}
